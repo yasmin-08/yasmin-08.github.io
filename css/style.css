@@ -6,3 +6,7 @@
 .logo{
     width: 100px;
 }
+
+.intro{
+    background-image: url('img/Welcome to my profile.gif');
+}
