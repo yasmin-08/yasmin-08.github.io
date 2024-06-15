@@ -12,28 +12,49 @@
 /* Style project page */
 .project-img {
     width: 100%;
+    border: 1px solid #520068;
     background-size: cover;
+}
 
+.card {
+    background-color: #edd7ff;
+    border: 1px solid #520068;
+    height: 450px;
 }
 
 
 /* Style contact me page  */
-.contact-container {
+.contact-container, .lead{
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: #fff;
+    background: #edd7ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-.social-links a {
-    margin: 0 10px;
-    color: #495057;
-    font-size: 24px;
-    transition: color 0.2s;
-}
 
-.social-links a:hover {
-    color: #007bff;
+/* footer */
+footer {
+    bottom: 0;
+    width: 100%;
+    color: #7243D1;
+    padding: 10px 0;
+    text-align: center;
+}
+.social-icons {
+    position: absolute;
+    /* left: 5%; */
+    /* bottom: 20px; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.social-icons a {
+    color: #7243D1;
+    font-size: 24px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #520068;
 }
