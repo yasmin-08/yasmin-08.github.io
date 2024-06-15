@@ -3,10 +3,46 @@
     margin: 0;
 }
 
+
+/* Style home page  */
 .logo{
     width: 100px;
 }
 
 .intro{
     background-image: url('img/Welcome to my profile.gif');
+}
+
+
+/* Style project page */
+.card{
+    max-width: 540px;
+}
+
+.card-left{
+    float: left;
+}
+
+.card-right{
+    float: right;
+}
+
+
+/* Style contact me page  */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.social-links a {
+    margin: 0 10px;
+    color: #495057;
+    font-size: 24px;
+    transition: color 0.2s;
+}
+.social-links a:hover {
+    color: #007bff;
 }
