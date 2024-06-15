@@ -1,34 +1,19 @@
-*{
+* {
     padding: 0 auto;
     margin: 0 auto;
 }
 
 
 /* Style home page  */
-.logo{
+.logo {
     width: 100px;
 }
 
-
-.banner{
-    width: 100%;
-    /* background: url('img/Welcome to my profile.gif') no-repeat center center; */
-    background-size: cover;
-    /* border: 2px solid rgb(255, 255, 255); */
-}
-
-
 /* Style project page */
-.card{
-    max-width: 540px;
-}
+.project-img {
+    width: 100%;
+    background-size: cover;
 
-.card-left{
-    float: left;
-}
-
-.card-right{
-    float: right;
 }
 
 
@@ -41,12 +26,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
 .social-links a {
     margin: 0 10px;
     color: #495057;
     font-size: 24px;
     transition: color 0.2s;
 }
+
 .social-links a:hover {
     color: #007bff;
 }
